@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Odyssey\\Week11\\Rocket_Elevators_Customer_Portal_Rest_API\\RestAPI.csproj": {}
+    "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Odyssey\\Week11\\Rocket_Elevators_Customer_Portal_Rest_API\\RestAPI.csproj": {
+    "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Odyssey\\Week11\\Rocket_Elevators_Customer_Portal_Rest_API\\RestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj",
         "projectName": "RestAPI",
-        "projectPath": "C:\\Odyssey\\Week11\\Rocket_Elevators_Customer_Portal_Rest_API\\RestAPI.csproj",
-        "packagesPath": "C:\\Users\\criss\\.nuget\\packages\\",
-        "outputPath": "C:\\Odyssey\\Week11\\Rocket_Elevators_Customer_Portal_Rest_API\\obj\\",
+        "projectPath": "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj",
+        "packagesPath": "C:\\Users\\izere\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\criss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\izere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -91,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

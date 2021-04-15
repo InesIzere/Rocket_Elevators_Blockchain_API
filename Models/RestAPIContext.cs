@@ -12,6 +12,9 @@ namespace RestAPI.Models
          protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
                 base.OnModelCreating(modelBuilder);
+
+                modelBuilder.Entity<Blockchain>() 
+                .HasKey(x => x.id);
                
                 modelBuilder.Entity<Building>()
                 .HasKey(b => b.id);
@@ -65,6 +68,7 @@ namespace RestAPI.Models
                 .WithMany(y => y.Elevators)
                 .HasForeignKey(z => z.column_id);                
             }
+        public DbSet<Blockchain> blockchains { get; set; }
 
         public DbSet<Building> buildings { get; set; }
         public DbSet<Battery> batteries { get; set; }
@@ -74,5 +78,6 @@ namespace RestAPI.Models
         public DbSet<Customer> customers { get; set; }
         public DbSet<Intervention> interventions { get; set; }
         public DbSet<Address> addresses { get; set; }
+
     }
 }
