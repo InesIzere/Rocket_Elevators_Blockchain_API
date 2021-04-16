@@ -45,7 +45,7 @@ namespace RestAPI
                     // "server=localhost;port=3306;database=ines_mysql;uid=root; password=Ines2010!",
 
                     // Live Site Connection
-                    "server=codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com;database=InesIzere;uid=codeboxx;password=Codeboxx1!",
+                    "server=codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com,database=InesIzere;uid=codeboxx;password=Codeboxx1!",
 
                     new MySqlServerVersion(new Version(8, 0, 21)),
                         mySqlOptions => mySqlOptions
