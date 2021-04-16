@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj": {}
+    "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj": {
+    "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj",
         "projectName": "RestAPI",
-        "projectPath": "c:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj",
+        "projectPath": "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\RestAPI.csproj",
         "packagesPath": "C:\\Users\\izere\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\obj\\",
+        "outputPath": "C:\\Users\\izere\\Rocket_Elevators_Blockchain_Rest_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
